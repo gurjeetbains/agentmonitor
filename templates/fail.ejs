@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+      <p>Hi All,</p>
+      <p><strong><%= moduleName %></strong> is not running on below agents.</p>
+      <p>Please look into it.</p>
+      <% for(var i=0;i<location.length;i++){ %>
+        <li><%= location[i] %></li>
+      <%  } %>
+      <p>Regards</p>
+      <p>DevOps Team</p>
+  </body>
+</html>
